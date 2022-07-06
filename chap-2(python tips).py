@@ -286,7 +286,7 @@ from typing import Dict, Iterable, Tuple
 
 # key are strings, values are ints
 counts: Dict[str, int] = {'data': 1, 'science': 2}
-
+lazy = True
 # lists and generators are both iterable
 if lazy:
     evens: Iterable[int] = (x for x in range(10) if x % 2 == 0)
